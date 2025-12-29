@@ -21,6 +21,7 @@
             color: white;
             padding: 20px 30px;
             border-radius: 0;
+            margin: 0 20px 0 20px;
         }
         
         .loyalty-card {
@@ -28,6 +29,8 @@
             border-radius: 0;
             overflow: hidden;
             background: white;
+            margin: 2px 20px 0 20px;
+            margin-top: 20px;
         }
         
         .tier-badge {
@@ -105,16 +108,16 @@
 <body>
     <form id="form1" runat="server">
         <div class="container-fluid p-0">
+            <!-- Full Width Header -->
+            <div class="header-green d-flex justify-content-between align-items-center">
+                <h3 class="mb-0">Awards +Plus</h3>
+                <small>Loyalty eStatement</small>
+            </div>
+            
             <div class="row g-0">
                 <!-- Main Content -->
                 <div class="col-lg-9">
                     <div class="loyalty-card">
-                        <!-- Header -->
-                        <div class="header-green d-flex justify-content-between align-items-center">
-                            <h3 class="mb-0">Awards +Plus</h3>
-                            <small>Loyalty eStatement</small>
-                        </div>
-                        
                         <!-- Body -->
                         <div class="p-4">
                             <!-- Greeting -->
@@ -208,13 +211,13 @@
                 
                 <!-- Sidebar -->
                 <div class="col-lg-3">
-                 <div class="p-3">
-                 <img src="Images/image1.png" alt="Image 1" class="sidebar-img" />
-                 <img src="Images/image2.png" alt="Image 2" class="sidebar-img" />
-                 <img src="Images/image3.png" alt="Image 3" class="sidebar-img" />
-              </div>
+                    <div class="p-3">
+                        <img src="Images/image1.png" alt="Image 1" class="sidebar-img" />
+                        <img src="Images/image2.png" alt="Image 2" class="sidebar-img" />
+                        <img src="Images/image3.png" alt="Image 3" class="sidebar-img" />
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
     </form>
     
